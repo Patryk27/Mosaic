@@ -1,0 +1,22 @@
+object frmPreview: TfrmPreview
+  Left = 621
+  Height = 459
+  Top = 91
+  Width = 576
+  Caption = 'Image preview'
+  ClientHeight = 459
+  ClientWidth = 576
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  LCLVersion = '1.2.4.0'
+  object Image: TImage
+    Left = 0
+    Height = 459
+    Top = 0
+    Width = 576
+    Align = alClient
+    OnClick = ImageClick
+    OnResize = ImageResize
+    Stretch = True
+  end
+end
